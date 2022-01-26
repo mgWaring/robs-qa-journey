@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: node:16-alpine
+
+  backend:
+    image: python:3.9
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: My1stPassword
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
