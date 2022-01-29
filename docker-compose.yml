@@ -5,7 +5,8 @@ services:
     image: node:16-alpine
 
   backend:
-    image: python:3.9
+    build: 
+      context: ./backend
 
   db:
     image: postgres

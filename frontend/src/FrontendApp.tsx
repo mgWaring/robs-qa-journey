@@ -1,11 +1,12 @@
 import React from 'react'
 
-const FrontendApp = () => {
+export const FrontendApp = () => {
   return (
+    //todo - nav
     <h1>
      Welcome to a very blank frontend
     </h1>
+    //todo - footer
   )
 }
 
-export default FrontendApp

@@ -1,9 +1,10 @@
 # robs-qa-journey
 Uhhhh, some stuff, idk yet
 
-## suggested ide
+## suggested IDEs
 
 VS code : https://code.visualstudio.com/
+PyCharm community : https://www.jetbrains.com/pycharm/download
 
 ## suggested Windows terminal
 
@@ -16,6 +17,17 @@ iTerm 2 : https://iterm2.com/
 ## potential qualifications
 
 https://isqi.org/en/62-practitioner-in-agile-quality-paq.html
+
+## developemnt dependencies
+
+Node : https://nodejs.org/en/download/ (^16) (with npm)
+Python : https://www.python.org/downloads/ (^3.6) (with pip)
+Docker : https://www.docker.com/get-started
+Git : https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+## launching
+
+run `docker compose up` and hopefully everything will work!
 
 ## notes
 
@@ -31,6 +43,7 @@ needs a js frontend that displays data - reactTS app
  - webpack
  - babel
  - typescript
+ - html canvas
 
 
-needs tests for all 3
+needs tests for frontend components/utilities, and backend APIs
